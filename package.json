@@ -1,0 +1,20 @@
+{
+  "name": "health",
+  "version": "1.0.0",
+  "description": "A website about healthy eating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amanda komsky",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "semantic": "0.0.1",
+    "semantic-ui": "^2.2.10",
+    "semantic-ui-css": "^2.2.10",
+    "semantic-ui-react": "^0.68.5",
+    "unirest": "^0.5.1"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calorie Tracker</title>
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="head-cal">
+		  <div class="ui pointing menu" id="menu">
+		    <a class="item" href="index.html">Home</a>
+		    <a class="item" href="about.html">About</a>
+		    <a class="active item" href="calories.html">Calorie Tracker</a>
+		    <a class="item">Meal Plan</a>
+		    <div class="right menu">
+		      <div class="item">
+		        <div class="ui icon input">
+		          <input type="text" placeholder="Search..." />
+		          <i aria-hidden="true" class="search icon"></i>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+
+		<div class="ui left icon input" id="food_search">
+	  		<i aria-hidden="true" class="food icon"></i>
+	  		<input type="text" name="input" id="input" placeholder="Search food calories..." />
+	  	</div>
+	 </div>
+	
+	<div class="ui relaxed three column grid">
+  		<div class="column">
+   		 	<p class="pa">Brands</p>
+   		 	<div class="ui basic segment" id="a"></div>
+  		</div>
+  		<div class="ui vertical divider">Or</div>
+  		<div class="column">
+  			<p class="pa">Nutrition Facts:
+    		<div class="ui basic segment col" id="b"></div>
+	  	</div>
+	  	<div class="ui vertical divider">Or</div>
+	  	<div class="column">
+	    	<div class="ui basic segment col" id="c"></div>
+	    		<div class="ui segment" id="seg">
+	    			<img class="ui small right floated image" src="http://www.costavida.com/_images/costa-vida-fresh-mexican-grill-nutrition-calorie-information-calculator.png"/>
+	    			<p id="pa">Type above to calculate calories by different brands</p>
+	    		</div>
+	    		
+	    	
+  		</div>
+	</div>
+
+
+	<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
